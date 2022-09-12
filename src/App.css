@@ -1,0 +1,39 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #0f3854;
+  background: dodgerblue linear-gradient(90deg, aqua, dodgerblue, deeppink) fixed;
+  font-size: 40px;
+  height:  100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+label{
+  text-transform: capitalize;
+}
+
+.capital{
+  text-transform: capitalize;
+}
+
+.inputTag {
+  margin: 10px;
+  padding: 5px;
+  font-family: Raleway-SemiBold;
+  font-size: 24px;
+  color: rgb(51, 36, 36)b;
+  display: block;
+  width: 350px;
+  background: rgba(#000,.02);
+  height: 62px;
+  border-radius: 25px;
+  border: 3px solid #00008B;
+}
+.inputTag:focus {
+  border: 3px solid deeppink;
+}
